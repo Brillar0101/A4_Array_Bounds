@@ -33,7 +33,7 @@ TEST_CASE("frequency tests",  "[frequency]") {
     REQUIRE(frequency_iterative(arr, n, 7) == 0);
 }
 
-TEST_CASE("compare with std library", "[std_library]") {
+TEST_CASE("using the std library", "[std_library]") {
     int arr[] = {2, 5, 5, 5, 10};
     int n = 5;
     
